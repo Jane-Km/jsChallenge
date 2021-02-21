@@ -56,7 +56,22 @@ body {
     align-self: end;
 }
 
+.form {
+  height: 90%;
+}
+
+.inputName {
+  width: 500px;
+  border: none;
+  background-color:black;
+  color: white;
+  font-size: 18px;
+  border-radius: 7px;
+  padding: 3%;
+}
+
 .greetings {
+    height: 100%;
     font-size: 55px;
     color: #69B779;
     text-align: center;
@@ -69,6 +84,7 @@ body {
   background-color: black;
   opacity: 0.6;
   width: 500px;
+  height: 250px;
   overflow-y: auto;
   overflow-x: auto;
   border-top-left-radius: 7px;
@@ -111,7 +127,7 @@ li {
     border-bottom-right-radius: 7px;
 }
 
-input[type=text] {
+.inputText {
     width: 99%;
     border: none;
     background-color:black;
@@ -119,17 +135,18 @@ input[type=text] {
     font-size: 18px;
 }
 
-input[type=text]:focus {
+.inputText:focus {
     outline : none;
 }
 
-input[type=text]::-webkit-input-placeholder {
+.inputText::-webkit-input-placeholder {
     color: white;
 }
 
-input[type=text]:focus::-webkit-input-placeholder {
+.inputText:focus::-webkit-input-placeholder {
     color: transparent;
 }
+
 
 button {
     color: black;
